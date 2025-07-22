@@ -116,7 +116,7 @@ CardioSage/
 
 ---
 
-## 🏆 8. Why CardioSage Wins
+## 🏆 8. Why Dr. CardiOS Wins
 
 * **Transparent**: All data & code open-source—no black-box APIs.
 * **Interpretable**: Models chosen for insight and accuracy.

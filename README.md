@@ -93,7 +93,7 @@ streamlit run src/frontend/app.py
 
 ### Live Demo
 
-*Deployment link soon*
+https://dr-cardios.streamlit.app/
 
 ---
 

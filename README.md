@@ -1,15 +1,15 @@
-# 🫀 Coronary Artery Disease Predictor & Lifestyle Solution – Built with Real ML by Ali Jafar
+# 🫀 Coronary Artery Disease Predictor & Lifestyle Solution
 
-# 🏥 Dr. CardiOS: Predict. Prevent. Protect.
+## 🏥 Dr. CardiOS: Predict. Prevent. Protect.
 
-  (docs/architecture.png)
+![Dr. CardiOS Architecture](docs/architecture.png)
 
-  ## 📊 1. Real-World Context
+## 📊 1. Real-World Context
 
-  Coronary Artery Disease (CAD) is the **leading cause of death in North America**, responsible for:
+Coronary Artery Disease (CAD) is the **leading cause of death in North America**, responsible for:
 
-  * **\~375,000+ deaths/year in the U.S.** (CDC, 2023)
-  * **20%+ of all deaths in Canada** (Health Canada, 2022)
+* **~375,000+ deaths/year in the U.S.** (CDC, 2023)  
+* **20%+ of all deaths in Canada** (Health Canada, 2022)
 
   Most CAD cases go undetected until severe events (e.g., myocardial infarction). Early risk assessment plus targeted lifestyle intervention can reduce incidence by up to **30%**.
 

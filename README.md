@@ -58,12 +58,27 @@ This hybrid design solves both **prediction** and **prevention**, empowering use
 4. **Evaluation**: Use stratified 80/20 split; metrics: AUC, precision, recall; XGBoost achieved **AUC ≈0.82**.
 5. **Serialization**: Save final pipeline (scaler + model) as `models/cad_merged_pipeline.pkl`.
 
+**See [notebooks/02_Train_CAD_Model.ipynb](notebooks/02_Train_CAD_Model.ipynb) for full code and results.**
+
 ### Diet Recommendation Model
 
 1. **Preprocessing**: Merge two diet CSVs on overlapping features; encode diet recommendations as categorical.
-2. **Modeling**: Train a **Decision Tree** (max\_depth=4, `class_weight='balanced'`) for clear decision paths.
+2. **Modeling**: Train a **Decision Tree** (max_depth=4, `class_weight='balanced'`) for clear decision paths.
 3. **Evaluation**: 5-fold cross-validation; accuracy >75%.
 4. **Serialization**: Save as `models/diet_rec_model.pkl` and processed lookup `data/processed/diet_lookup.pkl`.
+
+**See [notebooks/03_Train_Diet_Rec.ipynb](notebooks/03_Train_Diet_Rec.ipynb) for full code and results.**
+
+---
+
+## 📖 Documentation & Reproducibility
+
+All data processing, model training, and evaluation steps are fully documented in Jupyter notebooks:
+
+- [notebooks/01_EDA_CAD.ipynb](notebooks/01_EDA_CAD.ipynb): Exploratory Data Analysis (EDA) on raw and processed data
+- [notebooks/02_Train_CAD_Model.ipynb](notebooks/02_Train_CAD_Model.ipynb): CAD model training, evaluation, and export
+- [notebooks/03_Train_Diet_Rec.ipynb](notebooks/03_Train_Diet_Rec.ipynb): Diet recommendation model training
+- [notebooks/04_Test_Inference.ipynb](notebooks/04_Test_Inference.ipynb): End-to-end test on sample patient records
 
 ---
 
@@ -110,6 +125,7 @@ CardioSage/
 │   └── frontend/
 ├── docs/
 ├── demo/
+├── notebooks/
 ├── README.md
 └── requirements.txt
 ```
